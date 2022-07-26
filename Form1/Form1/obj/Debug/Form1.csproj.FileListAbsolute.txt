@@ -1,0 +1,11 @@
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\Form1\Form1\obj\Debug\Form1.csproj.AssemblyReference.cache
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\Form1\Form1\obj\Debug\Form1.csproj.SuggestedBindingRedirects.cache
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\Form1\Form1\obj\Debug\Form1.Form1.resources
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\Form1\Form1\obj\Debug\Form1.Properties.Resources.resources
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\Form1\Form1\obj\Debug\Form1.csproj.GenerateResource.cache
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\Form1\Form1\obj\Debug\Form1.csproj.CoreCompileInputs.cache
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\Form1\Form1\bin\Debug\Form1.exe.config
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\Form1\Form1\bin\Debug\Form1.exe
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\Form1\Form1\bin\Debug\Form1.pdb
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\Form1\Form1\obj\Debug\Form1.exe
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\Form1\Form1\obj\Debug\Form1.pdb
