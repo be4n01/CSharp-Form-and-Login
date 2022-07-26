@@ -45,6 +45,8 @@
             this.btncancel = new System.Windows.Forms.Button();
             this.Grid = new System.Windows.Forms.DataGridView();
             this.ep = new System.Windows.Forms.ErrorProvider(this.components);
+            this.lent = new System.Windows.Forms.Label();
+            this.Fcheck = new System.Windows.Forms.CheckBox();
             ((System.ComponentModel.ISupportInitialize)(this.Grid)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ep)).BeginInit();
             this.SuspendLayout();
@@ -186,11 +188,34 @@
             // 
             this.ep.ContainerControl = this;
             // 
+            // lent
+            // 
+            this.lent.AutoSize = true;
+            this.lent.Location = new System.Drawing.Point(1, 1);
+            this.lent.Name = "lent";
+            this.lent.Size = new System.Drawing.Size(44, 16);
+            this.lent.TabIndex = 16;
+            this.lent.Text = "label1";
+            this.lent.Click += new System.EventHandler(this.lent_Click);
+            // 
+            // Fcheck
+            // 
+            this.Fcheck.AutoSize = true;
+            this.Fcheck.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.Fcheck.Location = new System.Drawing.Point(586, 177);
+            this.Fcheck.Name = "Fcheck";
+            this.Fcheck.Size = new System.Drawing.Size(122, 24);
+            this.Fcheck.TabIndex = 18;
+            this.Fcheck.Text = "checkBox1";
+            this.Fcheck.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(849, 450);
+            this.Controls.Add(this.Fcheck);
+            this.Controls.Add(this.lent);
             this.Controls.Add(this.Grid);
             this.Controls.Add(this.btncancel);
             this.Controls.Add(this.btnadd);
@@ -208,6 +233,7 @@
             this.Controls.Add(this.Label);
             this.Name = "Form1";
             this.Text = "Form1";
+            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.Grid)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.ep)).EndInit();
             this.ResumeLayout(false);
@@ -233,6 +259,8 @@
         private System.Windows.Forms.Button btncancel;
         private System.Windows.Forms.DataGridView Grid;
         private System.Windows.Forms.ErrorProvider ep;
+        private System.Windows.Forms.Label lent;
+        private System.Windows.Forms.CheckBox Fcheck;
     }
 }
 

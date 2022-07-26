@@ -15,7 +15,8 @@ namespace WindowsFormsApp1.Model
        public int Invent {get; set;}
        public string Object {get; set;}
        public int Count { get; set; }
-       public float Price { get; set; }
+       public float Price { get; set; } 
+       public string Check { get; set; }
 
        public void Saved()
         {

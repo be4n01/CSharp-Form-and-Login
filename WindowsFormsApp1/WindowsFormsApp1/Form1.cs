@@ -22,7 +22,7 @@ namespace WindowsFormsApp1
         private void btnadd_Click(object sender, EventArgs e)
         {
             ep.Clear();
-            Regex r = new Regex(@"^([^0-9]*)$");
+            Regex check = new Regex(@"^([^0-9]*)$");
             if (string.IsNullOrEmpty(Fid.Text))
             {
                 ep.SetError(Fid, "Number is required");
@@ -43,7 +43,7 @@ namespace WindowsFormsApp1
             {
                 ep.SetError(Fprice, "Price is required");
             }
-            else if (!r.IsMatch(Fobj.Text))
+            else if (!check.IsMatch(Fobj.Text))
             {
                 ep.SetError(Fobj, "String should not have numbers.");
             }
@@ -56,9 +56,10 @@ namespace WindowsFormsApp1
                         Id = int.Parse(Fid.Text),
                         Date = dateTimePicker1.Text,
                         Invent = int.Parse(Finvent.Text),
-                        Object = dateTimePicker1.Text,
+                        Object = Fobj.Text,
                         Count = int.Parse(Fcount.Text),
-                        Price = float.Parse(Fprice.Text)
+                        Price = float.Parse(Fprice.Text),
+                        Check =  bool.Parse(Fcheck.Text)
                     };
                     F.Saved();
                     Grid.DataSource = null;
@@ -69,6 +70,21 @@ namespace WindowsFormsApp1
                     MessageBox.Show("Type mismatch");
                 };
             }
+        }
+
+        private void lent_Click(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+            Start l = new Start();
+            lent.Text = l.user;
+            this.Controls.Add(lent);
+            
+            
         }
     }
 }
