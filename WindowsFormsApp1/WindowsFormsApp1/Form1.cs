@@ -14,9 +14,12 @@ namespace WindowsFormsApp1
 {
     public partial class Form1 : Form
     {
-        public Form1()
+        public Form1(string name)
         {
             InitializeComponent();
+                      
+            lent.Text = name;
+            this.Controls.Add(lent);
         }
 
         private void btnadd_Click(object sender, EventArgs e)
@@ -59,13 +62,13 @@ namespace WindowsFormsApp1
                         Object = Fobj.Text,
                         Count = int.Parse(Fcount.Text),
                         Price = float.Parse(Fprice.Text),
-                        Check =  bool.Parse(Fcheck.Text)
+                        Check = Fcheck.Checked,
                     };
                     F.Saved();
                     Grid.DataSource = null;
                     Grid.DataSource = Filler.GetAllProducts();
                 }
-                catch (Exception)
+                catch (Exception) 
                 {
                     MessageBox.Show("Type mismatch");
                 };
@@ -80,9 +83,7 @@ namespace WindowsFormsApp1
         private void Form1_Load(object sender, EventArgs e)
         {
 
-            Start l = new Start();
-            lent.Text = l.user;
-            this.Controls.Add(lent);
+            
             
             
         }

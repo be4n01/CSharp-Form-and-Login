@@ -35,11 +35,11 @@ namespace WindowsFormsApp1
             {
                 
                 this.Hide();
-                Form1 form1 = new Form1();
+                Form1 form1 = new Form1(l.user);
                 form1.Show();
                 
             }
-            l.user = l.user;
+            
                 
             
            
