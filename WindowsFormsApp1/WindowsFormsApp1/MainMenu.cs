@@ -21,9 +21,8 @@ namespace WindowsFormsApp1
         }
 
         private void addProductToolStripMenuItem_Click(object sender, EventArgs e)
-        {
-            Search search = new Search();
-            this.Hide();
+        {            
+            
             Form1 dis = new Form1("");           
             dis.MdiParent = this;           
             dis.Show();

@@ -12,3 +12,5 @@ C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\WindowsFormsApp1\WindowsF
 C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\WindowsFormsApp1\WindowsFormsApp1\bin\Debug\WindowsFormsApp1.pdb
 C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Main1.resources
 C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Search.resources
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Bgcolor.resources
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ProductCardTemplate.resources

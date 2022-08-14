@@ -38,6 +38,7 @@
             this.Stext.Name = "Stext";
             this.Stext.Size = new System.Drawing.Size(412, 22);
             this.Stext.TabIndex = 0;
+            this.Stext.TextChanged += new System.EventHandler(this.Stext_TextChanged);
             // 
             // Sbutton
             // 
@@ -47,6 +48,7 @@
             this.Sbutton.TabIndex = 1;
             this.Sbutton.Text = "Search";
             this.Sbutton.UseVisualStyleBackColor = true;
+            this.Sbutton.Click += new System.EventHandler(this.Sbutton_Click);
             // 
             // Search
             // 
@@ -57,6 +59,7 @@
             this.Controls.Add(this.Stext);
             this.Name = "Search";
             this.Text = "Search";
+            this.Load += new System.EventHandler(this.Search_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

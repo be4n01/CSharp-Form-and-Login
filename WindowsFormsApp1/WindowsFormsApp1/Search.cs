@@ -1,4 +1,5 @@
-﻿using System;
+﻿using WindowsFormsApp1.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,22 @@ namespace WindowsFormsApp1
         public Search()
         {
             InitializeComponent();
+        }
+
+        private void Search_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Stext_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void Sbutton_Click(object sender, EventArgs e)
+        {
+            
+
         }
     }
 }
