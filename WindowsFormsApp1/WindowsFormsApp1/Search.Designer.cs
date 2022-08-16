@@ -28,38 +28,38 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Stext = new System.Windows.Forms.TextBox();
-            this.Sbutton = new System.Windows.Forms.Button();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
-            // Stext
+            // textBox1
             // 
-            this.Stext.Location = new System.Drawing.Point(180, 159);
-            this.Stext.Name = "Stext";
-            this.Stext.Size = new System.Drawing.Size(412, 22);
-            this.Stext.TabIndex = 0;
-            this.Stext.TextChanged += new System.EventHandler(this.Stext_TextChanged);
+            this.textBox1.Location = new System.Drawing.Point(12, 96);
+            this.textBox1.Name = "textBox1";
+            this.textBox1.Size = new System.Drawing.Size(309, 22);
+            this.textBox1.TabIndex = 0;
             // 
-            // Sbutton
+            // label1
             // 
-            this.Sbutton.Location = new System.Drawing.Point(345, 219);
-            this.Sbutton.Name = "Sbutton";
-            this.Sbutton.Size = new System.Drawing.Size(75, 23);
-            this.Sbutton.TabIndex = 1;
-            this.Sbutton.Text = "Search";
-            this.Sbutton.UseVisualStyleBackColor = true;
-            this.Sbutton.Click += new System.EventHandler(this.Sbutton_Click);
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(367, 92);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(81, 25);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Search";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // Search
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Sbutton);
-            this.Controls.Add(this.Stext);
+            this.ClientSize = new System.Drawing.Size(477, 194);
+            this.Controls.Add(this.label1);
+            this.Controls.Add(this.textBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Search";
             this.Text = "Search";
-            this.Load += new System.EventHandler(this.Search_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -67,7 +67,7 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox Stext;
-        private System.Windows.Forms.Button Sbutton;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label label1;
     }
 }

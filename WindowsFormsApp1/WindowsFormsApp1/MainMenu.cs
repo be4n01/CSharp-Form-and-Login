@@ -1,4 +1,5 @@
-﻿using System;
+﻿using WindowsFormsApp1.Model;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,17 +16,39 @@ namespace WindowsFormsApp1
         public Main1()
         {
             InitializeComponent();
-            Search S = new Search();
-            S.MdiParent = this;
-            S.Show();
         }
 
         private void addProductToolStripMenuItem_Click(object sender, EventArgs e)
-        {            
-            
-            Form1 dis = new Form1("");           
-            dis.MdiParent = this;           
-            dis.Show();
+        {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+            Form1 a = new Form1();           
+            a.MdiParent = this;           
+            a.Show();
+        }
+
+        private void updateProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+            Search s = new Search();
+            s.MdiParent = this;
+            s.Show();
+        }
+
+        private void displayProductToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+            List l = new List();
+            l.MdiParent = this;
+            l.Show();
         }
     }
 }

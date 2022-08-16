@@ -33,10 +33,6 @@
             this.addProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updateProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.displayProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.categoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.addCategoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.updateCategoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.displayCategoryToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,8 +40,7 @@
             // 
             this.menuStrip1.ImageScalingSize = new System.Drawing.Size(20, 20);
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.productToolStripMenuItem,
-            this.categoryToolStripMenuItem});
+            this.productToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 28);
@@ -73,41 +68,15 @@
             // 
             this.updateProductToolStripMenuItem.Name = "updateProductToolStripMenuItem";
             this.updateProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.updateProductToolStripMenuItem.Text = "Update Product";
+            this.updateProductToolStripMenuItem.Text = "Search Product";
+            this.updateProductToolStripMenuItem.Click += new System.EventHandler(this.updateProductToolStripMenuItem_Click);
             // 
             // displayProductToolStripMenuItem
             // 
             this.displayProductToolStripMenuItem.Name = "displayProductToolStripMenuItem";
             this.displayProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.displayProductToolStripMenuItem.Text = "Display Product";
-            // 
-            // categoryToolStripMenuItem
-            // 
-            this.categoryToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.addCategoryToolStripMenuItem,
-            this.updateCategoryToolStripMenuItem,
-            this.displayCategoryToolStripMenuItem});
-            this.categoryToolStripMenuItem.Name = "categoryToolStripMenuItem";
-            this.categoryToolStripMenuItem.Size = new System.Drawing.Size(83, 24);
-            this.categoryToolStripMenuItem.Text = "Category";
-            // 
-            // addCategoryToolStripMenuItem
-            // 
-            this.addCategoryToolStripMenuItem.Name = "addCategoryToolStripMenuItem";
-            this.addCategoryToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.addCategoryToolStripMenuItem.Text = "Add Category";
-            // 
-            // updateCategoryToolStripMenuItem
-            // 
-            this.updateCategoryToolStripMenuItem.Name = "updateCategoryToolStripMenuItem";
-            this.updateCategoryToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.updateCategoryToolStripMenuItem.Text = "Update Category";
-            // 
-            // displayCategoryToolStripMenuItem
-            // 
-            this.displayCategoryToolStripMenuItem.Name = "displayCategoryToolStripMenuItem";
-            this.displayCategoryToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
-            this.displayCategoryToolStripMenuItem.Text = "Display Category";
+            this.displayProductToolStripMenuItem.Text = "List Product";
+            this.displayProductToolStripMenuItem.Click += new System.EventHandler(this.displayProductToolStripMenuItem_Click);
             // 
             // Main1
             // 
@@ -133,9 +102,5 @@
         private System.Windows.Forms.ToolStripMenuItem addProductToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem updateProductToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem displayProductToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem categoryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem addCategoryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem updateCategoryToolStripMenuItem;
-        private System.Windows.Forms.ToolStripMenuItem displayCategoryToolStripMenuItem;
     }
 }

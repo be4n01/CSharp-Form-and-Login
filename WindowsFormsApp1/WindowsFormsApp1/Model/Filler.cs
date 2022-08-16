@@ -28,5 +28,10 @@ namespace WindowsFormsApp1.Model
             return fill;
         }
 
+        public static Filler findOne(string name)
+        {
+            return fill.Find(fill => fill.Object == name);
+        }
+
     }
 }

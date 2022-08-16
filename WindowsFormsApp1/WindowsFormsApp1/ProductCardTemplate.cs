@@ -12,27 +12,52 @@ namespace WindowsFormsApp1
 {
     public partial class ProductCardTemplate : UserControl
     {
-        private string _prodname;
+        private int _pId;
 
-        public string prodname
-        {
-            get { return _prodname; }
-            set { _prodname = value; prodName.Text = value; }
+        public int pId { 
+            get { return _pId; }
+            set { _pId = value; CardId.Text = value.ToString(); }
         }
-        private string _proditem;
+        
+        private string _pDate;
 
-        public string proditem
+        public string pDate
         {
-            get { return _proditem; }
-            set { proditem = value; prodItem.Text = value; }
+            get { return _pDate; }
+            set { _pDate = value; CardDate.Text = value.ToString(); }
         }
-        private string _prodprice;
 
-        public string prodprice
+        private int _pInv;
+
+        public int pInv
         {
-            get { return _prodprice; }
-            set { _prodprice = value; prodPrice.Text = value; }
+            get { return _pInv; }
+            set { _pInv = value; CardInv.Text = value.ToString(); }
         }
+
+        private string _pObj;
+
+        public string pObj
+        {
+            get { return _pObj; }
+            set { _pObj = value; CardObj.Text = value.ToString(); }
+        }
+
+        private int _pCount;
+
+        public int pCount
+        {
+            get { return _pCount; }
+            set { _pCount = value; CardCount.Text = value.ToString(); }
+        }
+        
+        private float _pPrice;
+        public float pPrice
+        {
+            get { return _pPrice; }
+            set { _pPrice = value; CardPrice.Text = value.ToString(); }
+        }
+
 
 
         public ProductCardTemplate()
@@ -47,6 +72,16 @@ namespace WindowsFormsApp1
         }
 
         private void label4_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void prodName_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void ProductCardTemplate_Load(object sender, EventArgs e)
         {
 
         }

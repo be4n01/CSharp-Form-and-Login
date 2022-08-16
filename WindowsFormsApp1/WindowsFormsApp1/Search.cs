@@ -18,20 +18,18 @@ namespace WindowsFormsApp1
             InitializeComponent();
         }
 
-        private void Search_Load(object sender, EventArgs e)
+        private void label1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void Stext_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
-        private void Sbutton_Click(object sender, EventArgs e)
-        {
-            
-
+            var pro = Filler.findOne(textBox1.Text);
+            if (pro == null)
+            {
+                MessageBox.Show("Not Available!");
+            }
+            else
+            {
+                //Project.findOne(pro.Obj_name);
+                MessageBox.Show("Available");
+            }
         }
     }
 }
