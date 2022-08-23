@@ -35,8 +35,8 @@ namespace WindowsFormsApp1
             {
                 
                 this.Hide();
-                Form1 form1 = new Form1();
-                form1.Show();
+                Main1 m = new Main1();
+                m.Show();
                 
             }
             

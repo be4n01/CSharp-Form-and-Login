@@ -29,8 +29,15 @@ namespace WindowsFormsApp1
                 p.pObj = item.Object;
                 p.pPrice = item.Price;
                 p.pCount = item.Count;
+                p.Click += (object o, EventArgs eq) =>
+                {
+                    Table T = new Table(item.Id, item.Date, item.Invent, item.Object, item.Count, item.Price);
+                    T.Show();
+                };
                 flowLayoutPanel1.Controls.Add(p);
-            }
+
+                
+            };
         }
     }
 }
