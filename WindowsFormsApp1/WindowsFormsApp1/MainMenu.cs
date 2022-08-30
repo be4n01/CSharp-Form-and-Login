@@ -20,13 +20,7 @@ namespace WindowsFormsApp1
 
         private void addProductToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if (ActiveMdiChild != null)
-            {
-                ActiveMdiChild.Close();
-            }
-            Form1 a = new Form1();           
-            a.MdiParent = this;           
-            a.Show();
+            
         }
 
         private void updateProductToolStripMenuItem_Click(object sender, EventArgs e)
@@ -49,6 +43,28 @@ namespace WindowsFormsApp1
             List l = new List();
             l.MdiParent = this;
             l.Show();
+        }
+
+        private void form1ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+            Form1 a = new Form1();
+            a.MdiParent = this;
+            a.Show();
+        }
+
+        private void form2ToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            if (ActiveMdiChild != null)
+            {
+                ActiveMdiChild.Close();
+            }
+            Form2 b = new Form2();
+            b.MdiParent = this;
+            b.Show();
         }
     }
 }

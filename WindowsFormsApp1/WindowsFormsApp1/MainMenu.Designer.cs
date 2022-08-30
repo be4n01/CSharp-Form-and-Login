@@ -33,6 +33,8 @@
             this.addProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.updateProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.displayProductToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.form1ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.form2ToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -59,6 +61,9 @@
             // 
             // addProductToolStripMenuItem
             // 
+            this.addProductToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.form1ToolStripMenuItem,
+            this.form2ToolStripMenuItem});
             this.addProductToolStripMenuItem.Name = "addProductToolStripMenuItem";
             this.addProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.addProductToolStripMenuItem.Text = "Add Product";
@@ -77,6 +82,20 @@
             this.displayProductToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
             this.displayProductToolStripMenuItem.Text = "List Product";
             this.displayProductToolStripMenuItem.Click += new System.EventHandler(this.displayProductToolStripMenuItem_Click);
+            // 
+            // form1ToolStripMenuItem
+            // 
+            this.form1ToolStripMenuItem.Name = "form1ToolStripMenuItem";
+            this.form1ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.form1ToolStripMenuItem.Text = "Form 1";
+            this.form1ToolStripMenuItem.Click += new System.EventHandler(this.form1ToolStripMenuItem_Click);
+            // 
+            // form2ToolStripMenuItem
+            // 
+            this.form2ToolStripMenuItem.Name = "form2ToolStripMenuItem";
+            this.form2ToolStripMenuItem.Size = new System.Drawing.Size(224, 26);
+            this.form2ToolStripMenuItem.Text = "Form 2";
+            this.form2ToolStripMenuItem.Click += new System.EventHandler(this.form2ToolStripMenuItem_Click);
             // 
             // Main1
             // 
@@ -102,5 +121,7 @@
         private System.Windows.Forms.ToolStripMenuItem addProductToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem updateProductToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem displayProductToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem form1ToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem form2ToolStripMenuItem;
     }
 }

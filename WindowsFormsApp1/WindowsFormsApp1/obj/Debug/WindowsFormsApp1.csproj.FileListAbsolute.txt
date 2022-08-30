@@ -16,3 +16,5 @@ C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\WindowsFormsApp1\WindowsF
 C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.ProductCardTemplate.resources
 C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.List.resources
 C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Table.resources
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.DataBase.resources
+C:\Users\Benoni\Documents\GitHub\CSharp-Form-and-Login\WindowsFormsApp1\WindowsFormsApp1\obj\Debug\WindowsFormsApp1.Form2.resources
