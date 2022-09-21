@@ -45,7 +45,7 @@ namespace WindowsFormsApp1.Model
 
         static public List<Filler> GetAllProducts()
         {
-            
+            return fill;
 
             List<Filler> fills = new List<Filler>();
             try

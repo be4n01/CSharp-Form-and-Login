@@ -42,7 +42,7 @@
             this.DataDel = new System.Windows.Forms.Button();
             this.DataUpd = new System.Windows.Forms.Button();
             this.DataAdd = new System.Windows.Forms.Button();
-            this.DataDate = new System.Windows.Forms.TextBox();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
             this.SuspendLayout();
             // 
             // Label
@@ -173,19 +173,19 @@
             this.DataAdd.UseVisualStyleBackColor = true;
             this.DataAdd.Click += new System.EventHandler(this.DataAdd_Click);
             // 
-            // DataDate
+            // dateTimePicker2
             // 
-            this.DataDate.Location = new System.Drawing.Point(146, 74);
-            this.DataDate.Name = "DataDate";
-            this.DataDate.Size = new System.Drawing.Size(100, 22);
-            this.DataDate.TabIndex = 22;
+            this.dateTimePicker2.Location = new System.Drawing.Point(146, 71);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(341, 22);
+            this.dateTimePicker2.TabIndex = 22;
             // 
             // Form2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.DataDate);
+            this.Controls.Add(this.dateTimePicker2);
             this.Controls.Add(this.DataAdd);
             this.Controls.Add(this.DataUpd);
             this.Controls.Add(this.DataDel);
@@ -224,6 +224,6 @@
         private System.Windows.Forms.Button DataDel;
         private System.Windows.Forms.Button DataUpd;
         private System.Windows.Forms.Button DataAdd;
-        private System.Windows.Forms.TextBox DataDate;
+        private System.Windows.Forms.DateTimePicker dateTimePicker2;
     }
 }
